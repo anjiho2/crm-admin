@@ -1,0 +1,8 @@
+package com.crm.admin.define.datasource;
+
+public interface BsmType {
+	int code();
+	BsmType code(int code);
+	String name();
+
+}
